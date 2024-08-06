@@ -1,4 +1,4 @@
-import 'package:animations/core/error/failures.dart';
+import '../error/failures.dart';
 import 'package:dartz/dartz.dart';
 
 abstract class UseCase<Type, Params> {

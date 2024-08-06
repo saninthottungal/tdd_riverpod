@@ -1,4 +1,4 @@
-import 'package:animations/core/usecases/usecases.dart';
+import '../../../../core/usecases/usecases.dart';
 
 import '../../../../core/error/failures.dart';
 import '../entities/number_trivia.dart';
