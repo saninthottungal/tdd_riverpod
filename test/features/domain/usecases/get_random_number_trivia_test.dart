@@ -24,7 +24,7 @@ void main() {
       when(() => mockNumberTriviaRepository.getRandomNumberTrivia()).thenAnswer(
         (invocation) async => const Right(trivia),
       );
-      final result = await usecase(Params());
+      final result = await usecase(NoParams());
       expect(result, const Right(trivia));
       verify(() => mockNumberTriviaRepository.getRandomNumberTrivia());
       verifyNoMoreInteractions(mockNumberTriviaRepository);
