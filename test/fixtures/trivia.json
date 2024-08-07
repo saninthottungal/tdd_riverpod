@@ -1,6 +1,4 @@
 {
-    "text": "42 is Text",
-    "number": 42,
-    "found": true,
-    "type": "trivia"
+    "text": "Test text",
+    "number": 1
 }
