@@ -43,4 +43,18 @@ void main() {
       );
     },
   );
+
+  group(
+    "to Json",
+    () {
+      test(
+        "to json test",
+        () {
+          final result = tNumberTriviaModel.toJson();
+          final expectedResult = {"text": "Test text", "number": 1};
+          expect(result, expectedResult);
+        },
+      );
+    },
+  );
 }
